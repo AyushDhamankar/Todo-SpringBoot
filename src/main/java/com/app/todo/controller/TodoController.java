@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
-@CrossOrigin("http://localhost:5173/")
+@CrossOrigin("https://todo-springboot.netlify.app/")
 public class TodoController {
     @Autowired
     private TodoServices todoServices;
